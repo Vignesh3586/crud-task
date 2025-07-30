@@ -22,6 +22,4 @@ app.get('/update-form/:id',(req,res)=>{
 app.use("/api",apiRouter)
 
 
-app.listen(PORT,()=>{
-    console.log("Server is listening on "+PORT)
-})
+module.exports=app
