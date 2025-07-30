@@ -1,5 +1,5 @@
 const editForm = document.getElementById('update-form')
-const url = "http://localhost:8000/api"
+const url = "https://crud-task-three.vercel.app/api"
 const paths=window.location.pathname.split('/')
 const id=paths[paths.length - 1]
 
@@ -54,7 +54,7 @@ editForm.addEventListener('submit', async () => {
       const response = await fetch(finalURL, options)
       const responseData = await response.json()
       if (response.ok) {
-         window.location="http://localhost:8000"
+         window.location="https://crud-task-three.vercel.app"
       } else {
         throw new Error(responseData.message)
       }

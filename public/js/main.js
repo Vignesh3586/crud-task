@@ -1,7 +1,7 @@
 const taskForm = document.getElementById('task-form')
 const taskList = document.getElementById('task-list')
 
-const url = "http://localhost:8000/api"
+const url = "https://crud-task-three.vercel.app/api"
 
 let tasks = []
 
@@ -37,7 +37,7 @@ taskForm.addEventListener("submit", async (e) => {
 })
 
 const editTask = (id) => {
-  window.location = `http://localhost:8000/update-form/${id}`
+  window.location = `https://crud-task-three.vercel.app/update-form/${id}`
 }
 
 const deleteTask = async (id) => {
