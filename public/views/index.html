@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/style.css" rel="stylesheet">
+    <title>CRUD</title>
+</head>
+<body>
+    <form id="task-form" >
+        <input type="checkbox" name="status" id="status" autocomplete="off">
+        <input type="text" name="taskname" id="task-name" placeholder="Task Name" autocomplete="off" required>
+        <input type="date" name="date" id="date" autocomplete="off" required>
+        <button type="submit">Add Task</button>
+    </form>
+    <div id="task-list">
+    </div>
+    <script defer src="../js/main.js" ></script>
+</body>
+</html>
