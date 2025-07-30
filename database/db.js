@@ -9,7 +9,7 @@ const connectDB = async () => {
             return db
         }
         const uri = process.env.MONGODB_URI
-        client = await new MongoClient(uri)
+        client =new MongoClient(uri)
         await client.connect()
         db = client.db("mydb")
         return db
