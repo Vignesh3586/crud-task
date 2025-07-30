@@ -6,7 +6,7 @@ A simple task management web application to **Create, Read, Update, and Delete (
 
 ## 🚀 Live URL
 
-🔗 [Click here to open the application](https://crud-task-three.vercel.app)
+🔗 [https://crud-task-three.vercel.app](https://crud-task-three.vercel.app)
 
 ---
 
